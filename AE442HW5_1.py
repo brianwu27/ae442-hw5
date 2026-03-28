@@ -178,6 +178,6 @@ if shutdown_done:
         ax.axvline(shutdown_time, color="red", linestyle="--", linewidth=1.2, label="shutdown")
     axs[0].legend()
 
-plt.suptitle(f"LM Ascent Simulation | kick_deg = {kick_deg}°", fontsize=13)
+plt.suptitle(f"LM Ascent Simulation", fontsize=13)
 plt.tight_layout()
 plt.show()

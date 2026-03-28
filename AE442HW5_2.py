@@ -280,7 +280,7 @@ if shutdown_done:
         ax.axvline(shutdown_time, color="red", linestyle="--", linewidth=1.2, label="shutdown")
     axs[0].legend()
 
-plt.suptitle(f"SSTO Earth Ascent | kick_deg = {kick_deg}°", fontsize=13)
+plt.suptitle(f"SSTO Earth Ascent", fontsize=13)
 plt.tight_layout()
 plt.show()
 
@@ -298,6 +298,6 @@ if shutdown_done:
     ax2.axvline(sd_x, color="red", linestyle="--", linewidth=1.2, label="shutdown")
     ax2.legend()
 
-plt.suptitle(f"SSTO Earth Ascent — Altitude vs Downrange | kick_deg = {kick_deg}°", fontsize=13)
+plt.suptitle(f"SSTO Earth Ascent — Altitude vs Downrange", fontsize=13)
 plt.tight_layout()
 plt.show()
